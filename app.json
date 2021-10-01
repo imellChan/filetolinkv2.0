@@ -6,9 +6,7 @@
     "logo": "https://i.ibb.co/BPFxDXx/photo-2021-07-09-11-55-52.jpg",
     "env": {
           "TG_BOT_TOKEN": {"description": "Token botmu dari botfather","required": true}
-    },
-    {
-          "TG_BOT_TOKEN": {"description": "Token botmu dari botfather","required": true}
+          "ID_CHANNEL": {"description": "ID Channelmu","requierd": true}
     },
     "buildpacks": [
       {"url": "heroku/python"}
