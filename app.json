@@ -1,0 +1,29 @@
+{
+    "name": "FIle to link V2",
+    "description": "Gampang",
+    "keywords": [
+        "telegram",
+        "files",
+        "store",
+        "bot"
+    ],
+    "repository": "https://github.com/derylprojects",
+    "env": {
+        "TG_BOT_TOKEN": {
+            "description": "Dapatkan dari @botfather."
+        },
+        "ID_CHANNEL": {
+            "description": "ID Channel force sub"
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
