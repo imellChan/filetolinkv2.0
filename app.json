@@ -1,29 +1,23 @@
 {
-    "name": "FIle to link V2",
-    "description": "Gampang",
-    "keywords": [
-        "telegram",
-        "files",
-        "store",
-        "bot"
-    ],
-    "repository": "https://github.com/derylprojects",
+    "name": "FileKeLink",
+    "description": "Mudsh.",
+    "website": "https://t.me/deryluserbothelp",
+    "repository": "https://github.com/derylprojects/bottglink",
+    "logo": "https://i.ibb.co/BPFxDXx/photo-2021-07-09-11-55-52.jpg",
     "env": {
-        "TG_BOT_TOKEN": {
-            "description": "Dapatkan dari @botfather."
-        },
-        "ID_CHANNEL": {
-            "description": "ID Channel force sub"
+          "TG_BOT_TOKEN": {"description": "Token botmu dari botfather","required": true}
+    },
+    {
+          "TG_BOT_TOKEN": {"description": "Token botmu dari botfather","required": true}
     },
     "buildpacks": [
-        {
-            "url": "heroku/python"
-        }
+      {"url": "heroku/python"}
     ],
     "formation": {
-        "worker": {
-            "quantity": 1,
-            "size": "free"
-        }
-    }
-}
+      "worker": {
+        "quantity": 1,
+        "size": "free"
+      }
+    },
+    "stack": "heroku-20"
+  }
