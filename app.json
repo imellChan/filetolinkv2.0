@@ -1,21 +1,30 @@
 {
-    "name": "FileKeLink",
-    "description": "Mudsh.",
-    "website": "https://t.me/deryluserbothelp",
-    "repository": "https://github.com/derylprojects/bottglink",
-    "logo": "https://i.ibb.co/BPFxDXx/photo-2021-07-09-11-55-52.jpg",
+    "name": "File To link",
+    "description": "A Telegram Files Store Bot in Pyrogram by @AbirHasan2005",
+    "keywords": [
+        "telegram",
+        "files",
+        "store",
+        "bot"
+    ],
+    "repository": "https://github.com/AbirHasan2005/PyroFilesStoreBot",
     "env": {
-          "TG_BOT_TOKEN": {"description": "Token botmu dari botfather","required": true},
-          "ID_CHANNEL": {"description": "ID Channelmu","requierd": true},
-    },
-    "buildpacks": [
-      {"url": "heroku/python"}
+        "TG_BOT_TOKEN": {
+            "description": "Dari bot father"
+        },
+        "ID_CHANNEL: {
+            "description": "Id Channel-mu"
+        }
+},
+"buildpacks": [
+        {
+            "url": "heroku/python"
+        }
     ],
     "formation": {
-      "worker": {
-        "quantity": 1,
-        "size": "free"
-      }
-    },
-    "stack": "heroku-20"
-  }
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
