@@ -12,7 +12,7 @@
         "TG_BOT_TOKEN": {
             "description": "Dari bot father"
         },
-        "ID_CHANNEL: {
+        
             "description": "Id Channel-mu"
         }
 },
