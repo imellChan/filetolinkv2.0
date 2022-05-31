@@ -7,7 +7,7 @@
         "store",
         "bot"
     ],
-    "repository": "https://github.com/AbirHasan2005/PyroFilesStoreBot",
+    "repository": "https://github.com/imellChan/filetolinkv2.0",
     "env": {
         "TG_BOT_TOKEN": {
             "description": "Dari bot father"
