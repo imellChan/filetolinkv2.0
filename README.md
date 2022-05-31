@@ -9,7 +9,7 @@
 
 ## ⬆️DEPLOY KE SERVER HEROKU
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fderylprojects%2Ffiletolinkv2.0&template=https%3A%2F%2Fgithub.com%2Fderylprojects%2Ffiletolinkv2.0)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fderylprojects%2Ffiletolinkv2.0&template=https://github.com/imellChan/filetolinkv2.0)
 
 
 ## APA ITU HEROKU
